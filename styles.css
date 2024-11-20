@@ -42,7 +42,7 @@ body {
 
 /* Hero Section */
 .hero {
-  background: url('img_1.png') no-repeat center center/cover;
+  background: url('snow.gif') no-repeat center center/cover;
   height: 90vh;
   display: flex;
   justify-content: center;
@@ -246,6 +246,53 @@ body {
 .callout-btn:hover {
   background-color: #444;
 }
+
+/* Contact Form */
+.contact-form {
+      max-width: 600px;
+      margin: 50px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-form h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #BB2528;
+    }
+
+    .contact-form label {
+      font-size: 1em;
+      color: #555;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0 20px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    .contact-form button {
+      background-color: #F8B229;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1em;
+      border-radius: 5px;
+      cursor: pointer;
+      display: block;
+      width: 100%;
+    }
+
+    .contact-form button:hover {
+      background-color: #0056b3;
+    }
 
 /* Footer */
 footer {
